@@ -1,0 +1,69 @@
+.sc {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 0 0 2rem 0;
+    border-radius: 16px;
+    gap: 1rem;
+    box-shadow: 1px 1px 10px #201d1de5;
+}
+.sc-personinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #0f2027;
+    background: linear-gradient(90deg, #0f2027 0%, #203a43 35%, #2c5364 100%);
+    color: #ffffff;
+    padding: 3rem;
+    border-radius: 16px;
+    gap: 1rem;
+}
+.sc-personinfo img {
+    border-radius: 100%;
+    width: 8rem;
+    height: 8rem;
+}
+.sc-personinfo h4 {
+    margin-left: 1rem;
+    max-width: 170px;
+}
+.sc-skillsection {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    color:#ffffff;
+    width: 85%;
+    border-radius: 20px;
+    margin-left: 1.2rem;
+}
+.sc-skillsection img {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+#react {
+    background-color: #bad4f3;
+}
+#react:hover {
+    box-shadow: 1px 1px 10px #6060c4;
+}
+#javascript {
+    background-color: #ebdc89;
+}
+#javascript:hover {
+    box-shadow: 1px 1px 10px #eea443;
+}
+#CSS {
+    background-color: #7c9adb;
+}
+#CSS:hover {
+    box-shadow: 1px 1px 10px #5959d3;
+}
+#python {
+    background-color: #e9eb9d;
+}
+#python:hover {
+    box-shadow: 1px 1px 10px #eccc14;
+}
